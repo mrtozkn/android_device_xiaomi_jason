@@ -320,7 +320,6 @@ vendor/lib64/libgf_ca.so
 vendor/lib64/libgf_hal.so
 
 # Gatekeeper
-vendor/lib/hw/gatekeeper.sdm660.so
 vendor/lib64/hw/gatekeeper.sdm660.so
 
 # Keystore
