@@ -76,6 +76,15 @@ PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.1 \
     android.hardware.keymaster@4.1-service
 
+# Keymint HAL
+PRODUCT_PACKAGES += \
+    android.hardware.security.keymint-V1-ndk.vendor \
+    android.hardware.security.keymint-V2-ndk.vendor \
+    android.hardware.security.keymint-V3-ndk.vendor \
+    android.hardware.security.rkp-V3-ndk.vendor \
+    android.hardware.security.secureclock-V1-ndk.vendor \
+    android.hardware.security.sharedsecret-V1-ndk.vendor
+
 # Lineage hardware
 PRODUCT_PACKAGES += \
     vendor.lineage.touch@1.0-service.jason
