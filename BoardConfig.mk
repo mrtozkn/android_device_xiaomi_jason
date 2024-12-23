@@ -69,6 +69,7 @@ BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 VENDOR_SECURITY_PATCH := 2019-03-01
 
 BUILD_BROKEN_DUP_RULES := true
+AB_OTA_UPDATER := false
 
 # Inherit the proprietary files
 include vendor/xiaomi/jason/BoardConfigVendor.mk
