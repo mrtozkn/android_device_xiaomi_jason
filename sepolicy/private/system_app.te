@@ -1,2 +1,5 @@
 # Allow PocketMode to work
 allow system_app sysfs_fps_proximity:file rw_file_perms;
+
+# persist.logd.logpersistd.buffer
+allow system_app logpersistd_logging_prop:property_service set;
